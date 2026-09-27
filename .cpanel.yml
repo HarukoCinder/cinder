@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/grayvtdo/sites/cinder/
+    - /bin/cp -R index.php home lab lib $DEPLOYPATH
